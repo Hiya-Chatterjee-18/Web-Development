@@ -1,0 +1,13 @@
+/* CLASS STARTS WITH DOT "." AND ID STARTS WITH HASS "#" */
+
+.hehehe{
+    background-color: rgb(255, 152, 203);
+}
+
+#Div2{
+    background-color: cornflowerblue;
+}
+
+.bg-purple{
+    color: rgb(85, 255, 241);
+}
