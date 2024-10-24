@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS & INPUT TAGS</title>
+</head>
+<body>
+    <h1>FORM FOR CSE(AI&ML)</h1>
+    <form action="post">
+        <div>
+            <label for="name">Enter your name</label>
+            <input type="text" name="Username" placeholder="username" autofocus> <!--AUTOFOCUSES HIGHLIGHTS THE BLOCK WHEN U R USING IT-->
+            
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+        
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+        </div>
+        <br>
+        <div>
+            <label for="disabbled">Are you specially abled?</label>
+            <input type="checkbox" name="disabbled" id="physical">
+        </div>
+        <br>
+        <div>
+            <label for="text">Enter you text about your disablity</label>
+             <textarea name="text" id="text" cols="50" rows="25"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Occupation">Occupation</label>
+            <select name="Occupation" id="work" >
+                <option value="Engineer">Engineer</option>
+                <option value="Bussiness">Bussiness</option>
+                <option value="Housewife">Housewife</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
