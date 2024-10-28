@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS SELECTORS</title>
+    <style>
+        /* ELEMENT SELECTOR */
+        p{
+            background-color: aqua;
+            color: brown;
+        }
+
+        /* CLASS SELECTOR */
+        .red{
+            background-color: darkblue;
+            color: darkgoldenrod;
+        }
+
+
+         /* ID SELECTOR */
+        #op{
+            background-color: rgb(251, 6, 137);
+            color: whitesmoke;
+        }
+
+        /* CHILD SELECTOR */
+        div>p{
+            background-color: black;
+            color: gold;
+        }
+
+        /* DESCENDENT SELECTOR */
+        div span{
+            background-color: coral;
+            color: darkblue;
+        }
+
+
+        /* UNIVERSAL SELECTOR */
+        *{
+            padding:0;
+            margin:0;
+        }
+
+
+        /* PSEUDO SELECTORS */
+
+        a:visited{
+            color: darkblue;
+        }
+
+        a:link{
+            color: darkorchid;
+        }
+
+        a:active{
+            background-color: green;
+        }
+
+        a:hover{
+            background-color: darkseagreen;
+        }
+
+
+        /* Applies only to the first child of the parent */
+        p:first-child{
+            background-color: greenyellow;  
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <p>I'm a para inside div used to show child selector</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veniam quasi vero rerum amet laudantium eos aut omnis enim similique modi quas fugit, ipsam iure laborum. Veniam sequi sint est.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium fugiat culpa cum, autem voluptate voluptatem et. Quidem dolor totam doloremque adipisci inventore nesciunt, repudiandae numquam cumque optio, nihil eius aut.</p>
+
+    <div class="red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatem odit nisi modi consectetur a, blanditiis consequuntur nesciunt in, fuga magnam eos repudiandae illo accusantium debitis eveniet dolores, doloremque veniam.</div>
+
+    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia alias possimus excepturi a atque nisi. Sunt facilis, doloremque, facere totam harum amet deleniti officiis, pariatur magni quod praesentium. Deserunt!
+
+        <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi possimus nisi mollitia officia? Minima, quos?</span>
+            Nihil nisi est ex minima soluta eum tenetur odio accusantium culpa explicabo.</article>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellat. Ipsa eius inventore debitis provident nisi aut facere dolorum accusamus nam veniam deleniti non ipsum similique, doloremque, omnis assumenda incidunt.</P>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ipsum aut recusandae voluptatem non! Unde sed id consectetur animi maiores.</span>
+    </div>
+
+    <div id="op">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto id eius repudiandae. In impedit accusantium odit neque quas repellat, amet explicabo optio quaerat! Deleniti dolores vitae delectus tempore quod.</div>
+
+    <a href="https://www.google.co.in/"> GOOGLE</a>
+    <a href="https://www.paypal.com">PAYPAL</a>
+    <a href="https://www.youtube.com/">Youtube</a>
+
+
+    
+</body>
+</html>
